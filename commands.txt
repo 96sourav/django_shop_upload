@@ -1,3 +1,20 @@
 python manage.py runserver
 
-python -m venv d_s_u_env                                                                                                                                              
+python -m venv d_s_u_env              
+
+in M/L
+
+create virtual environment
+python -m venv myvirtualenv
+
+
+activate virenv
+source myvirtualenv/bin/activate    
+
+
+in windows
+create virtual environment
+python -m venv myvirtualenv  
+
+activate virenv
+venv\Scripts\activate.bat
