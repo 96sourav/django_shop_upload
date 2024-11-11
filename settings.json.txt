@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "powermode.presets": "flames",
+    "workbench.editor.enablePreview": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.xlsx": "default"
+    },
+
+    // for beautfier 
+    "editor.wordWrapColumn": 200,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    // "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+
+
+// for django extention
+    "emmet.includeLanguages":{"django-html":	"html"} 
+
+
+}
