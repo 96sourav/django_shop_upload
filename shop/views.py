@@ -4,6 +4,8 @@ from math import ceil
 # import the logging library
 import logging
 
+from django.contrib import messages
+
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 # Create your views here.
@@ -41,6 +43,7 @@ def contact(request):
         desc = request.POST.get('desc', '')
         contact = Contact(name=name, email=email, phone=phone, desc=desc)
         contact.save()
+        # messages.success(request, 'Your contact information has been saved successfully!')
     return render(request, 'shop/contact.html')
 
 def tracker(request):
